@@ -62,11 +62,13 @@ from lerobot.common.robots import (  # noqa: F401
     so100_follower,
     so101_follower,
 )
+from tests.mocks.mock_robot import MockRobotConfig  # noqa: F401
 from lerobot.common.teleoperators import (  # noqa: F401
     Teleoperator,
     TeleoperatorConfig,
     make_teleoperator_from_config,
 )
+from tests.mocks.mock_teleop import MockTeleopConfig  # noqa: F401
 from lerobot.common.utils.control_utils import (
     init_keyboard_listener,
     is_headless,
